@@ -1,0 +1,681 @@
+/*GENERAL SETTING*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Myriad-Pro";
+    src: url(../font/MyriadProRegular.ttf) format("truetype");
+}
+
+body {
+    font-family: "Myriad-Pro";
+    color: #1d3f72;
+
+}
+
+img {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* HEADER SECTION */
+header {
+    width: 100%;
+    background-color: #fff;
+}
+
+.header-area {
+    width: 1140px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.logo {
+    float: left;
+    margin: 20px 0;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 18px;
+    line-height: 80px;
+}
+
+nav a {
+    color: #83b7d4;
+    font-size: 1.125em;
+    text-decoration: none;
+}
+
+a.active {
+    color: #1d3f72;
+    font-weight: bolder;
+}
+
+a:hover {
+    font-size: 1.375em;
+    color: #1d3f72;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+
+
+/* FOOTER SECTION */
+footer {
+    background: #363636;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.footer-top {
+    width: 1140px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.footer-top .footer-logo {
+    float: left;
+    margin: 20px 0px;
+}
+
+.footer-top ul {
+    float: right;
+}
+
+.footer-top li {
+    display: inline-block;
+    margin: 0 18px;
+    line-height: 80px;
+}
+
+.footer-top a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background: #363636;
+    float: left;
+    width: 100%;
+    margin: -4px auto;
+    height: 150px;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
+
+.social-footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.social-footer a {
+    margin: 5px 10px;
+    color: #fff;
+}
+
+
+
+/* INDEX.HTML*/
+/*VIDEO SECTION*/
+.video-text{
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top: 500px;
+    
+}
+.video-text1{
+    color: #fff;
+    font-size: 48px;
+}
+
+.video-text2{
+    color: #fff;
+    font-size: 72px;
+    font-weight: bold;
+        
+}
+
+.video-text3{
+    color: #fff;
+    font-size: 24px;
+}
+
+.fpvideo {
+/*   */
+/*    left: 20px;*/
+/*    top: 0px;*/
+    
+}
+
+.fpvideo video{
+     position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: initial;
+}
+
+/*EVENT SECTION*/
+.fpevents {
+    clear: both;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: -10px;
+    height: 648px;
+}
+
+.inner-fpevents {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.inner-fpevents-header {
+    padding: 72px;
+    text-align: center;
+}
+
+.inner-fpevents-left-left {
+    width: 370px;
+    float: left;
+}
+
+
+.inner-fpevents-left-top {
+    width: 192px;
+    float: left;
+    position: relative;
+}
+
+.inner-fpevents-left-bottom {
+    top: -4px;
+}
+
+.fpevents-article {
+    position: relative;
+    float: left;
+    left: 122px;
+    width: 400px;
+}
+
+.fpevents-article p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 1.5625em;
+}
+
+
+
+/* CREDIBLE SOURCE - COMMENT SECTION*/
+.fpcredible-source {
+    position: relative;
+    background-color: #1d3f72;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fpcredible-source-comment {
+    font-size: 2em;
+    padding-top: 74px;
+    padding-bottom: 50px;
+}
+
+.fpcredible-source-company {
+    font-size: 1.5em;
+    padding-bottom: 84px;
+}
+
+.fpcredible-source img {
+    width: 100px;
+}
+
+
+
+/* BOOKING SECTION */
+.fpbooking {
+    display: block;
+    width: 1140px;
+    margin: 0 auto;
+    position: static;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.fpbooking-card {
+    width: 468px;
+    height: 732px;
+    border: 1px solid #1d3f72;
+    margin: 100px 30px 92px 30px;
+}
+
+.fpbooking img {
+    width: 468px;
+}
+
+.fpbooking-card-text {
+    margin: 95px 98px 75px 98px;
+}
+
+.fpbooking .price {
+    position: relative;
+    left: 220px;
+    top: -65px;
+}
+
+.button {
+    position: relative;
+    border: none;
+    background: #1d3f72;
+    color: #fff;
+    padding: 10px 16px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+    min-width: 125px;
+    display: grid;
+    margin: auto;
+    top: 50px;
+    transition: 0.5s;
+}
+
+.button:hover,
+.button:focus {
+    background: #999;
+    color: #fff;
+}
+
+.button span .button:active {
+    background: #83b7d4;
+}
+
+
+
+/* VISITOR-INFO.HTML*/
+/*BANNER SECTION*/
+.fpbanner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/*ATTRACTION SECTION*/
+.fpattraction {
+    width: 100%;
+    background: #1d3f72;
+    position: relative;
+    top: -4px;
+    height: 2300px;
+}
+
+.fpattraction h1 {
+    padding: 100px 0 65px 0;
+}
+
+.fpattraction-inside {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.fpattraction-block-parent {
+    width: 1150px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.fpattraction-left {
+    height: 503px;
+    width: 570px;
+}
+
+.fpattraction-right {
+    width: 570px;
+    height: 503px;
+}
+
+.fpattraction-right-top {
+    position: relative;
+    left: 100px;
+    line-height: 1.5em;
+    width: 464px;
+    padding: 75px 0px 50px 0px;
+}
+
+.fpattraction-right-top h3,
+.fpattraction-left-top h3 {
+    padding-bottom: 50px;
+}
+
+.fpattraction-right-bottom {
+    position: relative;
+    line-height: 2em;
+    left: 100px;
+}
+
+.fpattraction-right-bottom ul,
+.fpattraction-left-bottom ul {
+    list-style: none;
+}
+
+.fpattraction-left-top {
+    position: relative;
+    line-height: 1.5em;
+    width: 464px;
+    padding: 75px 0px 50px 0px;
+    padding-bottom: 50px;
+}
+
+.fpattraction-left-bottom {
+    position: relative;
+    line-height: 2em;
+}
+
+
+
+/*EVENT SECTION - VISITOR INFO*/
+.fpevents-visitor-info {
+    position: relative;
+    top: -10px;
+    width: 100%;
+    background: #83b7d4;
+    height: 936px;
+}
+
+.fpevents-inside-visitor-info {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.fpevents-inside-headingAnddesc h1 {
+    padding: 100px 0 50px 0;
+    margin: 0 auto;
+}
+
+.fpevents-inside-headingAnddesc p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.fpevents-card-parent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.fpevents-card {
+    width: 370px;
+    height: 508px;
+    margin: 0 3px;
+    border: 1px solid #1d3f72;
+}
+
+.fpevents-card-top img {
+    width: 368px;
+}
+
+.fpevents-card-bottom {
+    position: relative;
+    left: 50px;
+    width: 274px;
+}
+
+.fpevents-card-bottom h3 {
+    padding: 45px 0 20px;
+}
+
+.fpevents-card-bottom p {
+    font-size: 1em;
+}
+
+
+
+/*THEME PARK MAP*/
+.fptheme-park-map {
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 673px;
+    background: #1d3f72;
+}
+
+.fptheme-park-map-inside {
+    width: 1140px;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.fptheme-park-map-inside-left {
+    float: left;
+    position: relative;
+    top: 58px;
+}
+
+.fptheme-park-map-inside-right {
+    float: right;
+    position: relative;
+    top: -20px;
+}
+
+iframe{
+    width: 754px;
+    height: 483px;
+    border: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+
+/*MANAGE-BOOKING.HTML*/
+/*BANNER SECTION*/
+.fpbanner img {
+    width: 100%;
+}
+
+
+
+/*FORM SECTION*/
+form {
+    clear: both;
+}
+
+.manage-booking {
+    width: 100%;
+    background: #1d3f72;
+}
+
+.manage-booking-inside {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.manage-booking-form h2 {
+    padding: 100px 0 44px 0;
+}
+
+.manage-booking-form {
+    width: 560px;
+    float: left;
+}
+
+.manage-booking-left {
+    clear: both;
+}
+
+.short-input-first-name input {
+    width: 275px;
+    height: 48px;
+    float: left;
+    margin: 6px 0px 5px 0px
+}
+
+.short-input-last-name input {
+    width: 275px;
+    height: 48px;
+    margin: -15px 0px 5px 10px;
+}
+
+.manage-booking input {
+    border: 2px solid #fff;
+    background: #1d3f72;
+    border-radius: 4px;
+}
+
+::placeholder {
+    color: #fff;
+    position: relative;
+    top: -10px;
+    left: 15px;
+}
+
+.long-input {
+    clear: both;
+}
+
+.long-input input {
+    width: 560px;
+    height: 48px;
+    margin: 5px 0 5px 0;
+}
+
+.manage-booking-order-summary {
+    width: 560px;
+    float: left;
+    margin: 0 10px;
+    border: 2px solid #fff;
+    margin-top: 178px;
+    border-radius: 4px;
+    height: 288px;
+}
+
+.manage-booking-order-summary .button {
+    background: #FFF;
+    color: #1d3f72;
+    clear: both;
+    position: relative;
+    top: 25px;
+    transition: 0.5s;
+}
+
+.manage-booking-order-summary .button:hover,
+.manage-booking-order-summary .button:hover {
+    background: #1d3f72;
+    color: #fff;
+}
+
+#manage-booking-order-summary-line {
+    clear: both;
+    position: relative;
+    width: 371px;
+    display: grid;
+    left: 95px;
+    top: -32px;
+}
+
+.manage-booking-order-summary h2 {
+    padding: 35px 0 38px 98px;
+}
+
+.manage-booking-order-summary-left {
+    padding-left: 98px;
+    width: 280px;
+    float: left;
+}
+
+.manage-booking-order-summary-right {
+    float: inherit;
+    width: 180px;
+    position: relative;
+    text-align: right;
+}
+
+.manage-booking-payment-information {
+    clear: both;
+    padding-bottom: 86px;
+}
+
+.manage-booking-payment-information h2 {
+    padding: 94px 0 40px 0;
+}
+
+.manage-booking-payment-information input {
+    width: 560px;
+    height: 48px;
+    margin: 5px 0 5px 0;
+}
+
+
+
+
+
+
+
+/* COLOR SETTING*/
+.white {
+    color: #fff;
+}
+
+.bg-darkblue {
+    background: #1d3f72;
+}
+
+
+/* FONT SIZE */
+.s32 {
+    font-size: 2em;
+}
+
+.s24 {
+    font-size: 1.5em;
+}
+
+.s18,
+.fptheme-park-map-inside-left li {
+    font-size: 1.33em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* HEADING SIZE */
+h1 {
+    font-size: 2.25em;
+    /* 36px */
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    /* 24px */
+}
+
+p {
+    font-size: 1.125em;
+    /* 18px */
+}
+
+.center {
+    text-align: center;
+}
