@@ -66,18 +66,18 @@
                         <h2>Manage Booking</h2>
                         <div class="manage-booking-left">
                             <div class="short-input-first-name">
-                                <input type="text" id="fistName" name="firstName" placeholder="First Name"><br>
+                                <input type="text" id="fistName" name="firstName" placeholder="First Name" required/><br>
                             </div>
                             <div class="short-input-last-name">
-                                <input type="text" id="lastName" name="lastName" placeholder="Last Name"><br>
+                                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required/><br>
                             </div>
                             <div class="long-input">
-                                <input type="text" id="emailAddress" name="emailAddress" placeholder="Email Address"><br>
-                                <input type="text" id="confirmEmailAddress" name="confirmEmailAddress" placeholder="Confirm Email Address"><br>
-                                <input type="text" id="phoneMobile" name="phoneMobile" placeholder="Phone/Mobile"><br>
-                                <input type="text" id="Address" name="Address" placeholder="Address"><br>
-                                <input type="text" id="postCode" name="postCode" placeholder="Post Code"><br>
-                                <input type="text" id="Country" name="Country" placeholder="Country"><br>
+                                <input type="email" id="emailAddress" name="emailAddress" placeholder="Email Address" required/><br>
+                                <input type="email" id="confirmEmailAddress" name="confirmEmailAddress" placeholder="Confirm Email Address" required/><br>
+                                <input type="text"  id="phoneMobile" name="phoneMobile" placeholder="Phone/Mobile" required/><br>
+                                <input type="text" id="Address" name="Address" placeholder="Address"/><br>
+                                <input type="text" id="postCode" name="postCode" placeholder="Post Code"/><br>
+                                <input type="text" id="Country" name="Country" placeholder="Country"/><br>
                             </div>
                         </div>
                     </div>
@@ -97,14 +97,14 @@
                             
                         </div>
                         <hr id="manage-booking-order-summary-line">
-                        <button type="button" class="button">CHECKOUT</button>
+                        <button type="submit" class="button">CHECKOUT</button>
                     </div>
                     <div class="manage-booking-payment-information">
                         <h2>Payment Information</h2>
-                        <input type="text" id="cardNumber" name="cardNumber" placeholder="Card Number"><br>
-                        <input type="text" id="expirationDate" name="expirationDate" placeholder="Expiration Date"><br>
-                        <input type="text" id="securityCode" name="securityCode" placeholder="Security Code"><br>
-                        <input type="text" id="cardHolderName" name="cardHolderName" placeholder="Cardholder Name"><br>
+                        <input type="text" id="cardNumber" name="cardNumber" placeholder="Card Number" required/><br>
+                        <input type="text" id="expirationDate" name="expirationDate" placeholder="Expiration Date (MM/YY)" required/><br>
+                        <input type="text" id="securityCode" name="securityCode" placeholder="Security Code" required/><br>
+                        <input type="text" id="cardHolderName" name="cardHolderName" placeholder="Cardholder Name" required/><br>
                     </div>
                 </div>
             </div>
@@ -127,14 +127,14 @@
             <div class="social-footer">
                 <ul>
                     <li>
-                        <a href=""><i class="fab fa-facebook"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-facebook hover-blue"></i></a>
+                        <a href=""><i class="fab fa-instagram hover-red"></i></a>
+                        <a href=""><i class="fab fa-twitter hover-lightblue"></i></a>
+                        <a href=""><i class="fab fa-youtube hover-red"></i></a>
                     </li>
                 </ul>
             </div>
-            <p>&copy; webdevgroup13.tutorgroup02 2019. We love our users!</p>
+            <p>&copy; webdevgroup13.tutorgroup02 2021. We love our users!</p>
         </div>
     </footer>
 
