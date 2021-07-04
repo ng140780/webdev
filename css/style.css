@@ -28,6 +28,9 @@ img {
 header {
     width: 100%;
     background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .header-area {
@@ -132,7 +135,6 @@ footer p {
 }
 
 
-
 /* INDEX.HTML*/
 /*VIDEO SECTION*/
 .video-text{
@@ -159,15 +161,8 @@ footer p {
     font-size: 24px;
 }
 
-.fpvideo {
-/*   */
-/*    left: 20px;*/
-/*    top: 0px;*/
-    
-}
-
 .fpvideo video{
-     position: relative;
+    position: relative;
     left: 0px;
     top: 0px;
     width: 100%;
@@ -280,6 +275,22 @@ footer p {
     position: relative;
     left: 220px;
     top: -65px;
+}
+
+.link-as-button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    width: 125px;
+    text-align: center;
+}
+
+.link-as-button:hover {
+    font-size: initial !important;
+    font-weight: initial !important;
+    text-decoration: none !important;
 }
 
 .button {
@@ -539,13 +550,14 @@ form {
     border: 2px solid #fff;
     background: #1d3f72;
     border-radius: 4px;
+    color: white;
+    padding-left: 15px;
 }
 
 ::placeholder {
     color: #fff;
     position: relative;
     top: -10px;
-    left: 15px;
 }
 
 .long-input {
@@ -625,11 +637,6 @@ form {
 }
 
 
-
-
-
-
-
 /* COLOR SETTING*/
 .white {
     color: #fff;
@@ -678,4 +685,16 @@ p {
 
 .center {
     text-align: center;
+}
+
+.hover-blue:hover {
+    color: #066ee3;
+}
+
+.hover-lightblue:hover {
+    color: #1da1f2;
+}
+
+.hover-red:hover {
+    color: #fe0401;
 }
